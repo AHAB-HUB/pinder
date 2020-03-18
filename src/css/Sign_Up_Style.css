@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+}
+
+.sign .wrap{
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.911);
+    box-sizing: border-box;
+    padding: 40px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.sign h2{
+    text-align: center;
+    color:  rgb(204, 125, 211);
+}
+
+.sign input[type=text], .sign input[type=email], .sign input[type=password]{
+   width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background:transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(204, 125, 211);
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.sign input[type=submit]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border:none;
+    background: #60adde;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.sign input[type=submit]:hover{
+    background: linear-gradient( 88.8deg,  rgba(239,171,245,1) 13.4%, rgba(196,181,249,1) 76.3% );
+    opacity: 0.7;
+    transform: scale(1.05);
+}
